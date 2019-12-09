@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <!--<link href="css/styles.css" rel="stylesheet" type="text/css" />-->
+  <title>Count Up By...</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Count Up By...</h1>
+      <p>Enter two numbers below, one goal number and one counting number. <br />
+        Example: goal number = 15, counting number = 5, answer: 5, 10, 15 <br />
+        Click submit and you will see the calculator work its magic!</p>
+    </div>
+    <form id="calculator">
+      <div class="form-group">
+        <label for="goalInput">Goal number:</label>
+        <input id="goalInput" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="countInput">Counting number:</label>
+        <input id="countInput" class="form-control" type="text">
+      </div>
+
+      <button type="submit" class="btn btn-info">Go!</button>
+    </form>
+    <br />
+    <div id="output">
+
+    </div>
+  </div>
+</body>
+
+</html>

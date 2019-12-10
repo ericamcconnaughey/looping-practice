@@ -16,7 +16,7 @@ _This webpage was created in order to practice Javascript loops. The purpose of 
 
 ## Known Bugs
 
-_Currently the counted numbers are only displaying in the console. Future versions will display the numbers on the screen for the user._
+_None._
 
 ## Support and Contact Details
 
